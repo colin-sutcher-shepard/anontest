@@ -1,4 +1,6 @@
 function [w,Out] = SAG_logistic(X,y,mu,opts)
+%written by Colin Sutcher-Shepard
+% sutchc@rpi.edu
 % min_w 1/N*sum_log(1+exp(-y.*(X'*w)))  + mu/2*norm(w)^2
 
 % N: number of samples
